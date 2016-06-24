@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:background="#10000000"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/fankui_memory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="占用内存过大" />
+
+    <CheckBox
+        android:id="@+id/fankui_ui_urgly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="界面太丑" />
+
+    <CheckBox
+        android:id="@+id/fankui_function_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="功能不够" />
+
+    <CheckBox
+        android:id="@+id/fankui_bug_always"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="经常崩溃，不稳定" />
+
+    <CheckBox
+        android:id="@+id/fankui_run_slowly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加载缓慢，耗流量严重" />
+
+
+    <CheckBox
+        android:id="@+id/fankui_content_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内容不够详细" />
+
+    <CheckBox
+        android:id="@+id/fankui_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="其他原因" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="您认为我们还有哪些方面需要改进？" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:text="标题" />
+        <EditText
+            android:layout_width="0dp"
+            android:id="@+id/fankui_advances_title"
+                android:maxLines="1"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:text="内容" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:id="@+id/fankui_advances_content"
+            android:maxLines="1"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/fankui_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

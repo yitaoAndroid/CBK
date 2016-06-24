@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<item
+    android:title="添加"
+    android:id="@+id/menu_detail_add"
+    android:icon="@mipmap/detail_add"
+    app:showAsAction="always"
+    />
+    <item
+        android:title="分享"
+        android:id="@+id/menu_detail_share"
+        android:icon="@mipmap/detail_share"
+        app:showAsAction="always"
+        />
+</menu>

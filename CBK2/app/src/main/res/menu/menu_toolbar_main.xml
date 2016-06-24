@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<item
+    android:title="更多"
+    android:id="@+id/main_more"
+    android:icon="@mipmap/content_more"
+    app:showAsAction="ifRoom"
+    />
+</menu>
